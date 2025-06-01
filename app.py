@@ -1,7 +1,13 @@
 
 import streamlit as st
 import json
-from utils import api_football, api_news, value_bets, arbitrage, predictions, nlp
+from utils import api_football
+from utils import api_news
+from utils import value_bets
+from utils import arbitrage
+from utils import predictions
+from utils import nlp
+
 
 # Charger les concepts
 with open("data/base_concepts.json", "r") as f:
