@@ -1,12 +1,12 @@
 
 import streamlit as st
 import json
-from utils import api_football
-from utils import api_news
-from utils import value_bets
-from utils import arbitrage
-from utils import predictions
-from utils import nlp
+from utils.api_football import *
+from utils.api_news import *
+from utils.value_bets import *
+from utils.arbitrage import *
+from utils.predictions import *
+from utils.nlp import *
 
 
 # Charger les concepts
